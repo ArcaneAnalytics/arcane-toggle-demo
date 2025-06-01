@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Arcane Analytics – Enchanted Offerings</title>
+  <style>
+    /* ---------- base layout ---------- */
+    html,body{margin:0;font-family:Montserrat,Arial,sans-serif;line-height:1.6;background:#1B0D2E;color:#FFFFFF}
+    .wrap{max-width:960px;margin:0 auto;padding:4rem 1.25rem;position:relative}
+    h1{color:#32CD32;margin:0 0 2rem}
+    h2{color:#6A0DAD;margin:2rem 0 .5rem}
+    ul{padding-left:1.25rem}
+    /* faint glyph backdrop */
+    body::before{content:\"\";position:fixed;inset:0;background:url('https://raw.githubusercontent.com/feathericons/feather/master/icons/aperture.svg') center/22rem repeat;
+                 opacity:0.05;pointer-events:none}
+    /* ---------- pricing scroll cards ---------- */
+    .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem;margin-top:2rem}
+    .card{background:rgba(106,13,173,.2);border:1px solid rgba(50,205,50,.4);border-radius:12px;padding:2rem;
+          backdrop-filter:blur(6px)}
+    .card h3{margin:0 0 .5rem;color:#32CD32}
+    .price{font-size:1.25rem;font-weight:600;margin-bottom:.75rem;color:#FFF}
+    /* ---------- toggle button ---------- */
+    .toggle{position:fixed;bottom:1.5rem;right:1.5rem;width:56px;height:56px;border-radius:50%;border:none;
+            display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;
+            background:#4A3B8C;color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.35);text-decoration:none;
+            transition:transform .15s}
+    .toggle:hover{transform:scale(1.05) rotate(8deg)}
+  </style>
+</head>
+<body>
+  <!-- pro switch -->
+  <a href="professional-offerings.html" class="toggle" aria-label="Switch to Professional mode">✨</a>
+
+  <div class="wrap">
+    <h1>Enchanted Offerings 🪄</h1>
+
+    <h2>Core Rituals</h2>
+    <ul>
+      <li><strong>Automation Spells</strong> – Rune-bound workflows to banish drudgery</li>
+      <li><strong>Crystals of Insight</strong> – Scrying dashboards revealing hidden truths</li>
+      <li><strong>Sage-for-Hire Counsel</strong> – Select the perfect spellbooks (software) for your guild</li>
+      <li><strong>Familiars & Constructs</strong> – Custom AI agents at your command</li>
+      <li><strong>Rune-Glyph Audit</strong> – Expose cursed loops and inefficiencies</li>
+    </ul>
+
+    <h2>Spellbook Tiers</h2>
+    <div class="tiers">
+      <div class="card">
+        <h3>Apprentice Scroll</h3>
+        <div class="price">500 gold<br><span style="font-size:0.9rem;opacity:0.85;">or&nbsp;250&nbsp;gold/mo</span></div>
+        <ul>
+          <li>1–2 minor incantations</li>
+          <li>One council of wisdom</li>
+          <li>Messenger-owl support</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Spellbook Suite</h3>
+        <div class="price">1,500 gold<br><span style="font-size:0.9rem;opacity:0.85;">or&nbsp;600&nbsp;gold/mo</span></div>
+        <ul>
+          <li>Workflow spellarray + crystal view</li>
+          <li>Sanctum audit</li>
+          <li>Bi-monthly divination</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Archmage Integration</h3>
+        <div class="price">3,500+ gold<br><span style="font-size:0.9rem;opacity:0.85;">or&nbsp;1,200+&nbsp;gold/mo</span></div>
+        <ul>
+          <li>Total glyph-forge overhaul</li>
+          <li>AI familiars & MCP nexus</li>
+          <li>Priority phoenix-feather support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
