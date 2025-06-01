@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Arcane Analytics – Service Offerings (Professional)</title>
+  <style>
+    /* ---------- base layout ---------- */
+    html,body{margin:0;font-family:Montserrat,Arial,sans-serif;line-height:1.6;background:#F4F5F7;color:#586174}
+    .wrap{max-width:960px;margin:0 auto;padding:4rem 1.25rem}
+    h1{color:#4A3B8C;margin:0 0 2rem}
+    h2{color:#4A3B8C;margin:2rem 0 .5rem}
+    ul{padding-left:1.25rem}
+    /* ---------- pricing cards ---------- */
+    .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem;margin-top:2rem}
+    .card{background:#fff;border:1px solid #E1E4EB;border-radius:12px;padding:2rem;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+    .card h3{margin:0 0 .5rem;color:#4A3B8C}
+    .price{font-size:1.25rem;font-weight:600;margin-bottom:.75rem}
+    /* ---------- toggle button ---------- */
+    .toggle{position:fixed;bottom:1.5rem;right:1.5rem;width:56px;height:56px;border-radius:50%;border:none;
+            display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;
+            background:#6A0DAD;color:#fff;box-shadow:0 4px 16px rgba(0,0,0,.25);text-decoration:none}
+    .toggle:hover{transform:scale(1.05)}
+  </style>
+</head>
+<body>
+  <!-- whimsy switch -->
+  <a href="whimsy-offerings.html" class="toggle" aria-label="Switch to Whimsical mode">✨</a>
+
+  <div class="wrap">
+    <h1>Service Offerings</h1>
+
+    <h2>Core Services</h2>
+    <ul>
+      <li><strong>AI Workflow Automation</strong> – Streamline repetitive tasks with RPA & custom logic</li>
+      <li><strong>Data Analysis &amp; Reporting</strong> – Turn raw data into actionable dashboards</li>
+      <li><strong>Small-Business Tech Consulting</strong> – Select & integrate the right software stack</li>
+      <li><strong>Custom AI Solutions</strong> – Chatbots, document processing, agent frameworks</li>
+      <li><strong>Digital Efficiency Audit</strong> – End-to-end process review with prioritized fixes</li>
+    </ul>
+
+    <h2>Packaged Tiers</h2>
+    <div class="tiers">
+      <div class="card">
+        <h3>Starter</h3>
+        <div class="price">$500 flat<br><span style="font-size:0.9rem;opacity:0.8;">or&nbsp;$250/mo</span></div>
+        <ul>
+          <li>1–2 automations</li>
+          <li>60-min strategy session</li>
+          <li>Email support</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Growth</h3>
+        <div class="price">$1,500 flat<br><span style="font-size:0.9rem;opacity:0.8;">or&nbsp;$600/mo</span></div>
+        <ul>
+          <li>Workflow suite + dashboard</li>
+          <li>Business system audit</li>
+          <li>Bi-monthly consults</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Transformation</h3>
+        <div class="price">from&nbsp;$3,500<br><span style="font-size:0.9rem;opacity:0.8;">or&nbsp;$1,200+/mo</span></div>
+        <ul>
+          <li>Full system redesign</li>
+          <li>Custom AI agents & MCP server</li>
+          <li>VIP support & reporting</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
